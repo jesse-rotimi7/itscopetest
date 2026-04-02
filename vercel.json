@@ -1,0 +1,30 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://itscopesolutions.com/sme",
+      "has": [
+        {
+          "type": "host",
+          "value": "wemadeitcheaper.com"
+        }
+      ],
+      "statusCode": 308
+    },
+    {
+      "source": "/",
+      "destination": "https://itscopesolutions.com/sme",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.wemadeitcheaper.com"
+        }
+      ],
+      "statusCode": 308
+    }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
+
